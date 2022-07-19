@@ -1,4 +1,1 @@
-print_board = [['_', '_', '_'], 
-         ['_', '_', '_'],
-         ['_', '_', '_']]
-print(board)
+print_board = [["." for x in range(3)] for y in range(3)]
