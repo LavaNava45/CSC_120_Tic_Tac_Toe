@@ -1,8 +1,5 @@
-board = [['_', '_', '_'], 
-         print(“ — — — — — — -”)
-         ['_', '_', '_'],
-         print(“ — — — — — — -”)
-         ['_', '_', '_']]
+def create_board():
+    return np.zeros ((3,3))
 
 board = create_board() 
 
