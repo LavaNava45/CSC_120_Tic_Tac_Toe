@@ -42,7 +42,7 @@ def input(turn):
 		except Exception as e:
 			print user + " Please try again.\n"
 		
-def check_game(board):
+def win_game(board):
 	win_cond = ((1,2,3),(4,5,6),(7,8,9),(1,4,7),(2,5,8),(3,6,9),(1,5,9),(3,5,7))
 	for each in win_cond:
 		try:
